@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Work</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.about{
+	width: 100%;
+	height: auto;
+	background-color: #bdc3c7/*#ecf0f1*/;
+	display: flex;  
+	position: relative;
+}
+.content2{
+	width: 83%;
+	padding-left: 20%; 
+	position: relative;
+	margin-left: auto;
+	background-color: #bdc3c7;
+}
+.content2 h1{
+	font-weight: 500;
+	line-height: 40px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+.content2 h2{
+	font-size: 28px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	padding-left: 3%;
+	padding-bottom: 30px;
+}
+.row{
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	width: 100%;
+}
+ 
+.rowf1{
+   width: 50%;
+	margin: 40px 40px 0px 40px;
+   position: relative;
+}
+.rowf1 img{
+	width: 100%;  
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 400px; 
+	cursor: pointer; 
+			 transition: 1s; 
+} 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99.5%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.rowf1:hover .overlay{
+  opacity: 1;
+}
+.rowf2{
+	width: 50%;
+	margin: 40px 40px 0px 40px;
+	position: relative;
+}
+.rowf2 img{
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 400px;
+	cursor: pointer;
+}
+.rowf2:hover .overlay2{
+  opacity: 1;
+}
+.row2{
+	margin-top: 50px;
+	display: flex;
+	width: 100%; 
+	margin-bottom: 40px;
+	justify-content: space-between; 
+} 
+.row1f1{
+	width: 50%;
+	margin: 30px 40px;
+	position: relative;
+} 
+.row1f1 img{
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	height: 400px;
+	cursor: pointer;
+}
+.row1f1:hover .overlay3{
+  opacity: 1;
+}
+.row2f2 img{
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 400px;
+	cursor: pointer;
+}
+.row2f2:hover .overlay4{
+  opacity: 1;
+}
+.row2f2{
+	width: 50%;
+	margin: 30px 40px;
+	position: relative;
+}  
+#foot{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif; 
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: 400;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content2 h4{
+	font-size: 28px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	padding-bottom: 30px;
+	padding-left: 3%;
+}
+.abcd{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	margin-bottom: 110px;
+}
+.abcd p{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	padding-bottom: 17px;
+}
+.a{
+	margin: 10px;
+}
+.b{
+	margin: 10px;
+}
+.c{
+	margin: 10px;
+}
+.d{
+	margin: 10px;
+}
+.circular{
+	height: 100px;
+	width: 100px; 
+	position: relative; 
+}
+.circular .inner{ 
+	position: absolute;
+	z-index: 6;
+	top: 50%;
+	left: 50%;
+	height: 80px;
+	width: 80px; 
+	margin: -40px 0 0 -40px;
+	background: #bdc3c7/*#dde6f0*/;
+	border-radius: 100%;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+.circular .numb{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;  
+}
+.circular .bar{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #fff;
+	-webkit-border-radius: 100%;
+	clip: rect(0px, 100px, 100px, 50px);
+}
+.circle .bar .progress{
+	position: absolute;
+	height: 100%;
+	width: 100%; 
+	-webkit-border-radius: 100%;
+	clip: rect(0px, 50px, 100px, 0px);
+	background:  black/*#4158d0*/;
+}
+.circle .left .progress{
+	z-index: 1;
+	animation: left 2.5s linear both;
+}
+@keyframes left{
+  100%{
+  	transform: rotate(180deg);
+  }
+}
+.circle .right{
+	z-index: 3;
+	transform: rotate(180deg);
+}
+.circle .right .progress{ 
+	animation: right 2.5s linear both;
+	animation-delay: 2.5s;
+}
+@keyframes right {
+  100%{
+  	transform: rotate(120deg);
+  }
+}
+.numb2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;  
+}
+.numb3{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;  
+}
+.numb4{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;  
+}
+.pic{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	position: fixed; 
+	top: 0%;
+	z-index: 10;
+	display: none;
+}
+.pic-f{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.pic-f1 i{
+	font-size: 30px; 
+	cursor: pointer;
+	position: absolute;
+	top: 18px;
+	left: 44px;
+}
+.pic-f2 img{
+	width: 30px; 
+	cursor: pointer; 
+	position: absolute;
+	top: 18px;
+	right: 44px;
+}
+.pic-img img{
+	width: 25%; 
+	height: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+@media(max-width: 1200px){
+	.row{
+	 	display: block;
+	 }
+	 .row2{
+	 	display: block;
+	 }
+	.rowf1{ 
+	 	margin: 20px 10px;
+	 }
+	 .rowf2{ 
+	 	margin: 20px 10px;
+	 }
+	 .row1f1{ 
+	 	margin: 20px 10px;
+	 }
+	 .row2f2{ 
+	 	margin: 20px 10px;
+	 }
+}
+
+
+
+
+
+@media(max-width: 800px){ 
+	 .abcd{
+	 	display: block;
+	 	text-align: initial;
+	 }
+	 .row{
+	 	display: block;
+	 }
+	 .row2{
+	 	display: block;
+	 }
+	 .rowf1{
+	 	width: 95%;
+	 	margin: 0px 0px 40px 0px;
+	 }
+	 .rowf2{
+	 	width: 95%;
+	 	margin: 0px 0px 40px 0px;
+	 }
+	 .row1f1{
+	 	width: 95%;
+	 	margin: 0px 0px 40px 0px; 
+	 }
+	 .row2f2{
+	 	width: 95%;
+	 	margin: 0px 0px 40px 0px; 
+	 }
+	 .row1f1 img{ 
+	height: 300px; 
+}
+.row2f2 img{ 
+	height: 300px;
+}
+.rowf1 img{
+	height: 300px;
+}
+.rowf2 img{
+	height: 300px;
+}
+
+}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="about">
+ 
+	  <div class="navbar"> 
+
+	  	<h3 onclick="window.location.href='index.html';">SHAIKH</h3>
+
+	  	<div class="icons"> 
+	  			<div class="one">
+		      <h6 onclick="window.location.href='index.html';"><i class="fa fa-home"></i> <span id="sk">Home</span></h6>
+		 </div>
+		 <div class="two">
+		      <h6 onclick="window.location.href='about.html';">
+	  			<i class="fa fa-user-secret"></i> <span id="sk">About</span></h6>
+		 </div>
+		 <div class="three">
+		      <h6>
+	  			<i class="fa fa-code"></i> <span id="sk">Work</span></h6>
+		 </div>
+		 <div class="four">
+		      <h6 onclick="window.location.href='contact.html';">
+	  			<i class="fa fa-envelope"></i> <span id="sk">Contact</span></h6>
+		 </div>
+
+	  	<i class="fa fa-github" id="github" onclick="window.open('https://github.com/shohel78692')"></i>
+
+	  </div>
+</div>  
+
+	  <div class="content2">
+
+	  	 <h1>Work</h1>
+
+
+
+	  <h4>My Skills</h4>
+      
+      <div class="abcd">
+
+      	<div class="a">
+      		<p>HTML</p> 
+      		<div class="circular">
+      			<div class="inner"></div>
+      			<div class="numb">0%</div>
+      			<div class="circle">
+      				<div class="bar left">
+      					<div class="progress"></div>
+      				</div>
+      				<div class="bar right">
+      					<div class="progress"></div>
+      				</div>
+      			</div>
+      		</div> 
+      	</div>
+
+
+
+      	<div class="b">
+      		<p>CSS</p> 
+<div class="circular">
+      			<div class="inner"></div>
+      			<div class="numb2">0%</div>
+      			<div class="circle">
+      				<div class="bar left">
+      					<div class="progress"></div>
+      				</div>
+      				<div class="bar right">
+      					<div class="progress"></div>
+      				</div>
+      			</div>
+      		</div> 
+      	</div>
+
+
+
+      	<div class="c">
+      		<p>BOOTSTRAP</p> 
+<div class="circular">
+      			<div class="inner"></div>
+      			<div class="numb3">0%</div>
+      			<div class="circle">
+      				<div class="bar left">
+      					<div class="progress"></div>
+      				</div>
+      				<div class="bar right">
+      					<div class="progress"></div>
+      				</div>
+      			</div>
+      		</div> 
+      	</div>
+
+
+      	<div class="d">
+      		<p>JAVASCRIPT</p> 
+           <div class="circular">
+      			<div class="inner"></div>
+      			<div class="numb4">0%</div>
+      			<div class="circle">
+      				<div class="bar left">
+      					<div class="progress"></div>
+      				</div>
+      				<div class="bar right">
+      					<div class="progress"></div>
+      				</div>
+      			</div>
+      		</div> 
+      	</div>
+      </div>
+
+
+
+
+
+
+	  <h2>My latest works</h2>
+
+	  <div class="row">
+
+	  	<div class="rowf1">
+	  		<img src="one.gif">
+	  		<div class="overlay">
+	  			<div class="text">VIEW MY WORK</div>
+	  		</div>
+	  	</div>
+
+	  	<div class="rowf2">
+	  		 <img src="two.webp">
+	  		<div class="overlay2">
+	  			<div class="text">VIEW MY WORK</div>
+	  		</div>
+	  	</div> 
+
+	  </div>
+
+
+
+	  <div class="row2">
+
+	  	<div class="row1f1">
+
+	  		<img src="three.webp">
+	  		<div class="overlay3">
+	  			<div class="text">VIEW MY WORK</div>
+	  		</div>
+	  	</div>
+
+	  	<div class="row2f2">
+
+	  		<img src="two.webp">
+	  		<div class="overlay4">
+	  			<div class="text">VIEW MY WORK</div>
+	  		</div>
+	  	</div>
+
+	  </div>
+
+ 
+
+
+
+ 
+ 
+	<p id="foot">Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.
+	</p>
+
+	  	
+	  </div>
+	</div>
+
+
+ 
+
+
+
+<script>   
+
+const numb = document.querySelector(".numb");
+  
+  let counter = 0;
+  setInterval(()=>{
+  	if(counter == 80){
+  		clearInterval();
+  	}else{
+  		counter+=1;
+  		numb.textContent = counter + "%";
+  	}
+  }, 63);
+
+
+
+
+const numb2 = document.querySelector(".numb2");
+  
+  let counter2 = 0;
+  setInterval(()=>{
+  	if(counter2 == 80){
+  		clearInterval();
+  	}else{
+  		counter2+=1;
+  		numb2.textContent = counter2 + "%";
+  	}
+  }, 63);
+
+
+
+const numb3 = document.querySelector(".numb3");
+  
+  let counter3 = 0;
+  setInterval(()=>{
+  	if(counter3 == 80){
+  		clearInterval();
+  	}else{
+  		counter3+=1;
+  		numb3.textContent = counter3 + "%";
+  	}
+  }, 63);
+
+
+
+const numb4 = document.querySelector(".numb4");
+  
+  let counter4 = 0;
+  setInterval(()=>{
+  	if(counter4 == 80){
+  		clearInterval();
+  	}else{
+  		counter4+=1;
+  		numb4.textContent = counter4 + "%";
+  	}
+  }, 63);
+
+
+</script>
+
+
+</body>
+</html>

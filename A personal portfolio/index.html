@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SHAIKH</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="main">
+ 
+	  <div class="navbar"> 
+
+	  	<h3>SHAIKH</h3>
+
+	  	<div class="icons"> 
+	  			<div class="one">
+		      <h6><i class="fa fa-home"></i> <span id="sk">Home</span></h6>
+		 </div>
+		 <div class="two">
+		      <h6 onclick="window.location.href='about.html';">
+	  			<i class="fa fa-user-secret"></i> <span id="sk">About</span></h6>
+		 </div>
+		 <div class="three">
+		      <h6 onclick="window.location.href='work.html';">
+	  			<i class="fa fa-code"></i> <span id="sk">Work</span></h6>
+		 </div>
+		 <div class="four">
+		      <h6 onclick="window.location.href='contact.html';">
+	  			<i class="fa fa-envelope"></i> <span id="sk">Contact</span></h6>
+		 </div>
+
+	  	<i class="fa fa-github" id="github" onclick="window.open('https://github.com/shohel78692')"></i>
+
+	  </div>
+</div>  
+
+	  <div class="content">
+	  	<h1>Hii!</h1>
+	  	<h2>My name is Shaikh Mohammad Ali</h2>
+	  	<h2>I am a Web Developer and i like<br> to code</h2>
+	  	<h3>Shaikh Mohammad Ali</h3>
+
+
+ 
+
+<div class="audio">
+	<button type="btn" onclick="playMusic()">On</button>
+	<button type="btn" onclick="pauseMusic()">Off</button>
+</div>
+
+
+<div class="scroll-btn">
+  <div class="scroll-bar">
+ 	<span></span>	
+  </div>
+ </div> 
+
+
+
+
+<!-- <footer>
+	<p>Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.
+	</p>
+</footer> -->
+
+<div class="footer">
+	<strong>Copyright @ 2021 Shaikh Mohammad Ali. All rights reserved.</strong>
+</div>
+
+	  	
+	  </div>
+	</div>
+
+
+<script> 
+	
+  var music = new Audio('sound.webm');
+
+	function playMusic(){ 
+  music.play();
+  }
+
+  function pauseMusic(){ 
+  music.pause();
+  }
+
+
+
+
+</script>
+
+
+</body>
+</html>
